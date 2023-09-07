@@ -1,12 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import Pokesearch from './components/Pokesearch/pokesearch';
-
+import React from 'react';
+import Main from './components/Main/Main';
 function App() {
   return (
-    <div className="App">
-      <Pokesearch />
-    </div>
+    <>
+      <Main />
+    </>
   );
 }
 
